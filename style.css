@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #e3f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background: #3a4452;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.display input {
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  font-size: 32px;
+  text-align: right;
+  background-color: #ffffff;
+  color: #3a4452;
+  padding-right: 20px;
+  border: none;
+  outline: none;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.calculator form input[type="button"] {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.1),
+              4px 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  color: #3a4452;
+  cursor: pointer;
+  background: #e3f9ff;
+  transition: all 0.2s;
+  margin: 5px; 
+}
+
+.calculator form input[type="button"]:hover {
+  background: #c8eef5;
+}
+
+.calculator form .operator {
+  color: #ffffff;
+  background-color: #ff9505;
+}
+
+.calculator form .action {
+  color: #ffffff;
+  background-color: #ff3b3b;
+}
+
+.calculator form .equal {
+  width: 125px;
+  color: #ffffff;
+  background-color: #28a745;
+}
